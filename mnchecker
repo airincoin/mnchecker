@@ -49,10 +49,10 @@ userDirName = ".mnchecker"
 
 #==========================================================
 # Currency defaults
-defaultCurrencyHandle = "vivo"
-defaultCliBin = "/usr/local/bin/vivo-cli"
-defaultDaemonBin = "/usr/local/bin/vivod"
-defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".vivocore")
+defaultCurrencyHandle = "airin"
+defaultCliBin = "/usr/local/bin/airin-cli"
+defaultDaemonBin = "/usr/local/bin/airind"
+defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".airincore")
 
 #==========================================================
 # Explorer URL
@@ -60,10 +60,10 @@ defaultDataDir = os.path.join(os.path.abspath(os.path.expanduser("~")), ".vivoco
 #=============================
 # chainz.cryptoid.info
 # NOTE: For this explorer, you'll have to set the user agent to "Mozilla/5.0" further below.
-defaultBlockExplorerBlockCountUrlTemplate = "http://chainz.cryptoid.info/{currencyHandle}/api.dws?q=getblockcount"
+defaultBlockExplorerBlockCountUrlTemplate = "http://explorer.airin.cc/api/getblockcount"
 
 #=============================
-# vivo.explorerz.top:3003
+# http://explorer.airin.cc/api/getblockcount
 # NOTE: This explorer seems to be derelict (date of notice: February 19, 2018)
 #defaultBlockExplorerBlockCountUrlTemplate = "http://{currencyHandle}.explorerz.top:3003/api/getblockcount"
 
